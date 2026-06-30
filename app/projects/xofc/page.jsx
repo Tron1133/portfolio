@@ -126,7 +126,7 @@ export default function XOFCPage() {
       <section className="max-w-7xl mx-auto px-8 py-20">
         <Link
           href="/projects"
-          className="inline-block mt-10 bg-green-600 text-white hover:bg-green-700 transition px-8 py-4 rounded-xl font-semibold"
+          className="text-black font-semibold hover:underline"
         >
           ← Back to Projects
         </Link>
@@ -263,19 +263,6 @@ export default function XOFCPage() {
         </div>
       </section>
 
-      {/* SCREENSHOTS */}
-
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-8">
-          <SectionTitle
-            title="Platform Walkthrough"
-            subtitle="Screens from the XOFC football platform."
-          />
-
-          <ScreenshotGallery screenshots={screenshots} />
-        </div>
-      </section>
-
       {/* TECHNOLOGY STACK */}
 
       <section className="bg-white py-20">
@@ -350,27 +337,6 @@ export default function XOFCPage() {
               <p className="mt-4 text-green-100">Responsive UI</p>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-
-      <section className="bg-gray-900 text-white py-24">
-        <div className="max-w-5xl mx-auto text-center px-8">
-          <h2 className="text-5xl font-bold">Bringing Football Data to Life</h2>
-
-          <p className="mt-6 text-xl text-gray-300 leading-9">
-            XOFC combines live football data, intuitive design and analytics to
-            create an engaging platform for football enthusiasts while
-            demonstrating modern web development and API integration skills.
-          </p>
-
-          <Link
-            href="/projects"
-            className="inline-block mt-10 bg-green-600 hover:bg-green-700 transition px-8 py-4 rounded-xl font-semibold"
-          >
-            ← Back to All Projects
-          </Link>
         </div>
       </section>
     </main>

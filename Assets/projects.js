@@ -4,9 +4,9 @@ const projects = [
 
     title: "TalentIQ",
 
-    role: "Product Management Intern",
+    role: "Product Management",
 
-    duration: "2 Months",
+    industry: "HR Tech",
 
     cover: "/Projects/talentiq/cover.png",
 
@@ -21,9 +21,9 @@ const projects = [
 
     title: "Pinksalt",
 
-    role: "Product Management Intern",
+    role: "Product Management",
 
-    duration: "2 Months",
+    industry: "Marketing Tech",
 
     cover: "/Projects/pinksalt/cover.png",
 
@@ -37,9 +37,9 @@ const projects = [
 
     title: "Talk",
 
-    role: "Product Management Intern",
+    role: "Product Management",
 
-    duration: "2 Months",
+    industry: "Conversational AI",
 
     cover: "/Projects/talk/cover.png",
 
@@ -53,6 +53,7 @@ const projects = [
     title: "PRD Generator AI Agent",
     subtitle: "AI Product Documentation Tool",
     cover: "/Projects/prd-generator/cover.png",
+    industry: "AI Productivity",
     description:
       "An AI-powered tool that transforms product ideas into structured Product Requirement Documents (PRDs) with user stories, acceptance criteria, feature breakdowns and implementation-ready documentation.",
     tech: ["OpenAI", "FastAPI", "Next.js", "Streamlit"],
@@ -67,6 +68,7 @@ const projects = [
     description:
       "Performed SQL-based pricing analysis to identify revenue opportunities, customer purchasing patterns and pricing insights using relational databases and business intelligence techniques.",
     tech: ["SQL", "MySQL", "Data Analytics", "Excel"],
+    industry: "Data Analytics",
     href: "/projects/sql-pricing",
   },
   {
@@ -77,6 +79,7 @@ const projects = [
     description:
       "A football fan engagement platform designed to deliver interactive experiences including live updates, fan communities, player insights and personalized content for Indian football enthusiasts.",
     tech: ["Figma", "UX Research", "Wireframing", "Product Design"],
+    industry: "Sports Tech",
     href: "/projects/xofc",
   },
 ];

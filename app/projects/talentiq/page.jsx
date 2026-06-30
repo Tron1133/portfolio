@@ -179,7 +179,7 @@ export default function TalentIQ() {
         <div className="grid lg:grid-cols-2 gap-20 items-center mt-5">
           <div>
             <p className="uppercase tracking-[6px] text-green-600 font-semibold">
-              PRODUCT MANAGEMENT CASE STUDY
+              PRODUCT MANAGEMENT
             </p>
 
             <h1 className="text-7xl font-extrabold mt-6">TalentIQ</h1>
@@ -240,7 +240,7 @@ export default function TalentIQ() {
 
             <StatCard title="Duration" value="2 Months" />
 
-            <StatCard title="Role" value="Product Management Intern" />
+            <StatCard title="Role" value="Product Management" />
 
             <StatCard title="Users" value="Recruiters" />
           </div>

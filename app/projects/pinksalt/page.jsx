@@ -97,39 +97,37 @@ function ScreenshotGallery({ screenshots }) {
 export default function Pinksalt() {
   const screenshots = [
     {
-      image: "/Projects/pinksalt/1.png",
+      image: "/Projects/pinksalt/homedashboard.png",
+      title: "Dashboard",
+      description: "Generate campaign based on sales data",
+    },
+    {
+      image: "/Projects/pinksalt/chat.png",
       title: "Campaign Builder",
       description: "Create AI-powered campaigns.",
     },
+    {
+      image: "/Projects/pinksalt/aicontent.png",
+      title: "AI Content",
+      description: "Generate campaign content using AI.",
+    },
 
     {
-      image: "/Projects/pinksalt/2.png",
+      image: "/Projects/pinksalt/rcswhatsapp.png",
+      title: "Channels Selection",
+      description: "Send campaigns across multiple channels.",
+    },
+
+    {
+      image: "/Projects/pinksalt/segmentation.png",
       title: "Audience Segmentation",
       description: "Target customers using filters.",
     },
 
     {
-      image: "/Projects/pinksalt/3.png",
-      title: "AI Content",
-      description: "Generate campaign copies instantly.",
-    },
-
-    {
-      image: "/Projects/pinksalt/4.png",
-      title: "Scheduling",
-      description: "Schedule campaigns in advance.",
-    },
-
-    {
-      image: "/Projects/pinksalt/5.png",
+      image: "/Projects/pinksalt/analytics.png",
       title: "Analytics",
       description: "Track delivery and engagement.",
-    },
-
-    {
-      image: "/Projects/pinksalt/6.png",
-      title: "Dashboard",
-      description: "Monitor campaign performance.",
     },
   ];
 
@@ -146,7 +144,7 @@ export default function Pinksalt() {
         <div className="grid lg:grid-cols-2 gap-20 items-center mt-10">
           <div>
             <p className="uppercase tracking-[6px] text-green-600 font-semibold">
-              PRODUCT MANAGEMENT CASE STUDY
+              PRODUCT MANAGEMENT
             </p>
 
             <h1 className="text-7xl font-bold mt-6">Pinksalt</h1>
@@ -407,34 +405,6 @@ export default function Pinksalt() {
         </div>
       </section>
 
-      {/* FUTURE ROADMAP */}
-
-      <section className="bg-white py-20">
-        <div className="max-w-7xl mx-auto px-8">
-          <SectionTitle
-            title="Future Roadmap"
-            subtitle="Potential improvements for future releases."
-          />
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card
-              title="A/B Testing"
-              description="Compare campaign variants to identify the highest-performing content."
-            />
-
-            <Card
-              title="Customer Journey Automation"
-              description="Build automated campaign journeys triggered by user behavior."
-            />
-
-            <Card
-              title="Predictive Analytics"
-              description="Use AI to recommend the best audience, channel and send time for every campaign."
-            />
-          </div>
-        </div>
-      </section>
-
       {/* TECH STACK */}
 
       <section className="py-20">
@@ -495,25 +465,6 @@ export default function Pinksalt() {
               AI-powered products are built and shipped in an agile environment.
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* BACK TO PROJECTS */}
-
-      <section className="bg-gray-900 text-white py-24">
-        <div className="max-w-5xl mx-auto text-center px-8">
-          <h2 className="text-5xl font-bold">Thanks for Reading</h2>
-
-          <p className="mt-6 text-xl text-gray-300">
-            Explore my other Product Management case studies and AI products.
-          </p>
-
-          <Link
-            href="/projects"
-            className="inline-block mt-10 bg-green-600 hover:bg-green-700 transition px-8 py-4 rounded-xl font-semibold"
-          >
-            ← Back to All Projects
-          </Link>
         </div>
       </section>
     </main>

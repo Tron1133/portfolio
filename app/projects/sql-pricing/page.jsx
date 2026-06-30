@@ -110,7 +110,7 @@ export default function PricingAnalysis() {
       <section className="max-w-7xl mx-auto px-8 py-20">
         <Link
           href="/projects"
-          className="text-green-600 font-semibold hover:underline"
+          className="text-black font-semibold hover:underline"
         >
           ← Back to Projects
         </Link>
@@ -255,19 +255,6 @@ export default function PricingAnalysis() {
         </div>
       </section>
 
-      {/* DASHBOARD */}
-
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-8">
-          <SectionTitle
-            title="Project Screens"
-            subtitle="Database design, SQL queries and analysis outputs."
-          />
-
-          <ScreenshotGallery screenshots={screenshots} />
-        </div>
-      </section>
-
       {/* TECHNOLOGY */}
 
       <section className="bg-white py-20">
@@ -308,27 +295,6 @@ export default function PricingAnalysis() {
               description="Learned how to translate raw transactional data into meaningful business insights that support pricing and revenue decisions."
             />
           </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-
-      <section className="bg-green-600 text-white py-24">
-        <div className="max-w-5xl mx-auto text-center px-8">
-          <h2 className="text-5xl font-bold">Data-Driven Decision Making</h2>
-
-          <p className="mt-6 text-xl text-green-100 leading-9">
-            This project demonstrates how SQL can transform structured business
-            data into actionable insights, enabling better pricing strategies,
-            customer segmentation and revenue optimization.
-          </p>
-
-          <Link
-            href="/projects"
-            className="inline-block mt-10 bg-white text-green-700 px-8 py-4 rounded-xl font-bold hover:bg-gray-100 transition"
-          >
-            ← Back to All Projects
-          </Link>
         </div>
       </section>
     </main>

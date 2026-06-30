@@ -34,9 +34,9 @@ export default function ProjectCard({ project }) {
           </div>
 
           <div>
-            <p className="text-sm text-gray-500">Duration</p>
+            <p className="text-sm text-gray-500">Industry</p>
 
-            <p className="font-semibold">{project.duration}</p>
+            <p className="font-semibold">{project.industry}</p>
           </div>
         </div>
 
@@ -54,7 +54,7 @@ export default function ProjectCard({ project }) {
         </div>
 
         <Link href={`/projects/${project.slug}`}>
-          <button className="bg-black hover:bg-green-700 transition-all text-white px-5 py-3 rounded-lg font-semibold">
+          <button className="bg-green-600 hover:bg-green-700 transition-all text-white px-5 py-3 rounded-lg font-semibold">
             View full product details →
           </button>
         </Link>

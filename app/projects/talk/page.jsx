@@ -168,7 +168,7 @@ export default function Talk() {
       <section className="max-w-7xl mx-auto px-8 py-20">
         <Link
           href="/projects"
-          className="text-green-600 font-semibold hover:underline"
+          className="text-black font-semibold hover:underline"
         >
           ← Back to Projects
         </Link>
@@ -176,7 +176,7 @@ export default function Talk() {
         <div className="grid lg:grid-cols-2 gap-20 items-center mt-10">
           <div>
             <p className="uppercase tracking-[6px] text-green-600 font-semibold">
-              PRODUCT MANAGEMENT CASE STUDY
+              PRODUCT MANAGEMENT
             </p>
 
             <h1 className="text-7xl font-extrabold mt-6">Talk</h1>
@@ -237,7 +237,7 @@ export default function Talk() {
 
             <StatCard title="Duration" value="2 Months" />
 
-            <StatCard title="Role" value="Product Management Intern" />
+            <StatCard title="Role" value="Product Management" />
 
             <StatCard title="Primary Users" value="Businesses" />
           </div>

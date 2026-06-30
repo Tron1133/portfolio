@@ -130,7 +130,7 @@ export default function PRDGenerator() {
       <section className="max-w-7xl mx-auto px-8 py-20">
         <Link
           href="/projects"
-          className="text-green-600 font-semibold hover:underline"
+          className="text-black font-semibold hover:underline"
         >
           ← Back to Projects
         </Link>
@@ -294,18 +294,6 @@ export default function PRDGenerator() {
         </div>
       </section>
 
-      {/* SCREENSHOTS */}
-
-      <section className="bg-white py-20">
-        <div className="max-w-7xl mx-auto px-8">
-          <SectionTitle
-            title="Product Walkthrough"
-            subtitle="Screens from the AI Copilot."
-          />
-
-          <ScreenshotGallery screenshots={screenshots} />
-        </div>
-      </section>
       {/* TECHNOLOGY STACK */}
 
       <section className="py-20">
@@ -408,56 +396,6 @@ export default function PRDGenerator() {
               description="Strengthened product discovery, documentation, competitive analysis and translating business ideas into implementation-ready product specifications."
             />
           </div>
-        </div>
-      </section>
-
-      {/* FUTURE IMPROVEMENTS */}
-
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-8">
-          <SectionTitle
-            title="Future Improvements"
-            subtitle="Potential enhancements for upcoming versions."
-          />
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card
-              title="Collaborative Editing"
-              description="Enable multiple stakeholders to review and edit PRDs together."
-            />
-
-            <Card
-              title="Jira Integration"
-              description="Automatically convert generated requirements into Jira Epics, Stories and Tasks."
-            />
-
-            <Card
-              title="Multi-Model AI"
-              description="Allow users to generate PRDs using different LLM providers such as OpenAI, Claude and Gemini."
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* FINAL CTA */}
-
-      <section className="bg-green-600 text-white py-24">
-        <div className="max-w-5xl mx-auto text-center px-8">
-          <h2 className="text-5xl font-bold">AI + Product Management</h2>
-
-          <p className="mt-6 text-xl text-green-100 leading-9">
-            This project combines Product Management, AI, automation and
-            software development to simplify one of the most time-consuming
-            activities in product development—creating comprehensive Product
-            Requirement Documents.
-          </p>
-
-          <Link
-            href="/projects"
-            className="inline-block mt-10 bg-white text-green-700 px-8 py-4 rounded-xl font-bold hover:bg-gray-100 transition"
-          >
-            ← Back to All Projects
-          </Link>
         </div>
       </section>
     </main>
