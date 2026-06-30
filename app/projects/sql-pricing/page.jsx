@@ -85,7 +85,7 @@ function ScreenshotGallery({ screenshots }) {
 export default function PricingAnalysis() {
   const screenshots = [
     {
-      image: "/Projects/sql/1.png",
+      image: "/Projects/sql-pricing/1.png",
       title: "Database Schema",
       description:
         "Relational database consisting of Products, Customers, Sales and Transactions.",
@@ -150,7 +150,7 @@ export default function PricingAnalysis() {
 
           <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
             <Image
-              src="/Projects/sql/cover.png"
+              src="/Projects/sql-pricing/cover.png"
               alt="SQL Project"
               fill
               className="object-cover"

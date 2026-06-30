@@ -156,7 +156,7 @@ export default function XOFCPage() {
             </div>
             <div className="flex flex-wrap gap-4 mt-10">
               <a
-                href="https://dev.pinksalt.algorizz.com/"
+                href="https://xofc-india.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-600 hover:bg-green-700 text-white px-7 py-4 rounded-xl font-semibold transition"

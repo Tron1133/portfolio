@@ -160,6 +160,16 @@ export default function PRDGenerator() {
               <Badge text="LLMs" />
               <Badge text="PDF Export" />
             </div>
+            <div className="flex flex-wrap gap-4 mt-10">
+              <a
+                href="https://prd-agent.streamlit.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-600 hover:bg-green-700 text-white px-7 py-4 rounded-xl font-semibold transition"
+              >
+                🌐 View Live Product
+              </a>
+            </div>
           </div>
 
           <div className="relative h-[520px] rounded-3xl overflow-hidden shadow-2xl">
